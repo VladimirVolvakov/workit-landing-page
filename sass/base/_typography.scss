@@ -1,0 +1,23 @@
+%heading {
+  font-family: $font-display;
+  font-weight: 600;
+  color: $color-primary;
+}
+
+.heading-lg {
+  @extend %heading;
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.heading-md {
+  @extend %heading;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+}
+
+.heading-sm {
+  @extend %heading;
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
