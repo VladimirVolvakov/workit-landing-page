@@ -14,8 +14,7 @@ body {
   color: #24053e;
   font-weight: 400;
   font-size: 1.8rem;
-  line-height: 3.2rem;
-  background-color: #24053e; }
+  line-height: 3.2rem; }
 
 .heading-lg, .heading-md, .heading-sm {
   font-family: "Fraunces", serif;
@@ -63,5 +62,22 @@ body {
   cursor: pointer;
   transition: all 0.3s; }
   .btn-secondary:hover {
-    background-color: #24053e;
     color: #44ffa1; }
+
+.features {
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  height: 96rem;
+  background-image: linear-gradient(#fcf8ff, #fcf8ff);
+  clip-path: circle(2500px at 50% -242%);
+  z-index: 20; }
+
+.header {
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  height: 73rem;
+  background-image: linear-gradient(#24053e, #24053e);
+  clip-path: circle(2500px at 50% -242%);
+  z-index: 30; }
