@@ -72,6 +72,7 @@ body {
     color: #44ffa1; }
 
 .features {
+  position: relative;
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
@@ -79,6 +80,13 @@ body {
   background-image: linear-gradient(#fcf8ff, #fcf8ff);
   clip-path: circle(2500px at 50% -242%);
   z-index: 20; }
+  .features__img {
+    position: absolute;
+    width: 76.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -27.6rem;
+    z-index: 50; }
 
 .header {
   position: relative;
@@ -89,7 +97,8 @@ body {
   padding: 5.8rem 16.5rem 0;
   background-image: linear-gradient(#24053e, #24053e);
   clip-path: circle(2500px at 50% -242%);
-  z-index: 30; }
+  z-index: 30;
+  overflow: hidden; }
   .header__logo-panel {
     display: flex;
     justify-content: space-between;
@@ -108,10 +117,3 @@ body {
     position: absolute;
     top: 31.4rem;
     right: -4.8rem; }
-  .header__img {
-    position: absolute;
-    width: 76.7rem;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -16.5rem;
-    z-index: 50; }

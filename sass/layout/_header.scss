@@ -8,6 +8,7 @@
   background-image: linear-gradient($color-primary, $color-primary);
   clip-path: circle(2500px at 50% -242%);
   z-index: 30;
+  overflow: hidden;
 
   &__logo-panel {
     display: flex;
@@ -37,14 +38,5 @@
       top: 31.4rem;
       right: -4.8rem;
     }
-  }
-
-  &__img {
-    position: absolute;
-    width: 76.7rem;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -16.5rem;
-    z-index: 50;
   }
 }
