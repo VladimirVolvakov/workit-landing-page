@@ -39,4 +39,13 @@
       right: -4.8rem;
     }
   }
+
+  &__img {
+    position: absolute;
+    width: 76.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -16.5rem;
+    z-index: 50;
+  }
 }

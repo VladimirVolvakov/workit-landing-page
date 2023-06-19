@@ -5,15 +5,40 @@
   margin: 0 auto;
   height: 96rem;
   background-image: linear-gradient($color-ghost-white, $color-ghost-white);
-  clip-path: circle(2500px at 50% -242%);
+  top: -22.6rem;
+  clip-path: circle(2500px at 50% -160%);
   z-index: 20;
 
-  &__img {
-    position: absolute;
-    width: 76.7rem;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -27.6rem;
-    z-index: 50;
+  &__container {
+    padding: 48rem 16.3rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__feature-item {
+    width: 35.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__feature-num {
+    font-family: $font-display;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: $color-primary;
+    border: 1px solid $color-primary-light;
+    border-radius: 50%;
+    padding: 0.7rem 2.1rem;
+    margin-bottom: 5.6rem;
+  }
+
+  &__feature-title {
+    margin-bottom: 2.8rem;
+  }
+
+  &__feature-desc {
+    text-align: center;
   }
 }
