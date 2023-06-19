@@ -1,9 +1,50 @@
 .header {
+  position: relative;
   width: 100%;
   max-width: 144rem;
-  margin: 0 auto;
   height: 73rem;
+  margin: 0 auto;
+  padding: 5.8rem 16.5rem 0;
   background-image: linear-gradient($color-primary, $color-primary);
   clip-path: circle(2500px at 50% -242%);
   z-index: 30;
+
+  &__logo-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.2rem;
+  }
+
+  &__hero {
+    text-align: center;
+    padding: 0 23.75rem;
+
+    h1 {
+      margin-bottom: 3.7rem;
+    }
+  }
+
+  &__deco {
+    &--1 {
+      position: absolute;
+      top: 11.6rem;
+      left: -13.8rem;
+    }
+
+    &--2 {
+      position: absolute;
+      top: 31.4rem;
+      right: -4.8rem;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    width: 76.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -16.5rem;
+    z-index: 50;
+  }
 }
