@@ -1,0 +1,36 @@
+.footer {
+  position: relative;
+  top: -22.6rem;
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 6rem 16.5rem 11rem;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    height: 10.2rem;
+    width: 11.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__media-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__media-link-item {
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transform: translateY(-2px) scale(1.1);
+    }
+  }
+}

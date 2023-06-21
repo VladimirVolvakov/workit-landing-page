@@ -146,6 +146,34 @@ body {
   .features__feature-desc {
     text-align: center; }
 
+.footer {
+  position: relative;
+  top: -22.6rem;
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto -22.6rem;
+  padding: 6rem 16.5rem 11rem;
+  display: flex;
+  justify-content: center; }
+  .footer__container {
+    height: 10.2rem;
+    width: 11.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__media-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__media-link-item {
+    cursor: pointer;
+    transition: all 0.3s; }
+    .footer__media-link-item:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transform: translateY(-2px) scale(1.1); }
+
 .header {
   position: relative;
   width: 100%;
