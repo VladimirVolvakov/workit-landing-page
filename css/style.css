@@ -72,8 +72,6 @@ body {
     color: #44ffa1; }
 
 .cta {
-  position: relative;
-  top: -22.6rem;
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
@@ -113,13 +111,11 @@ body {
     width: 17.3rem; }
 
 .features {
-  position: relative;
   width: 100%;
   max-width: 144rem;
-  margin: 0 auto;
+  margin: -22.6rem auto 0;
   height: 96rem;
   background-image: linear-gradient(#fcf8ff, #fcf8ff);
-  top: -22.6rem;
   clip-path: circle(2500px at 50% -160%);
   z-index: 20; }
   .features__container {
@@ -148,10 +144,9 @@ body {
 
 .footer {
   position: relative;
-  top: -22.6rem;
   width: 100%;
   max-width: 144rem;
-  margin: 0 auto -22.6rem;
+  margin: 0 auto;
   padding: 6rem 16.5rem 11rem;
   display: flex;
   justify-content: center; }

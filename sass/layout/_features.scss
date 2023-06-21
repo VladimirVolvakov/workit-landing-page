@@ -1,11 +1,9 @@
 .features {
-  position: relative;
   width: 100%;
   max-width: 144rem;
-  margin: 0 auto;
+  margin: -22.6rem auto 0;
   height: 96rem;
   background-image: linear-gradient($color-ghost-white, $color-ghost-white);
-  top: -22.6rem;
   clip-path: circle(2500px at 50% -160%);
   z-index: 20;
 
