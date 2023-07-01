@@ -11,6 +11,11 @@
   cursor: pointer;
   transition: all 0.3s;
 
+  @media only screen and (max-width: $bp-tablet) {
+    font-size: 1.6rem;
+    letter-spacing: -0.16px;
+  }
+
   &:hover {
     color: $color-secondary;
   }

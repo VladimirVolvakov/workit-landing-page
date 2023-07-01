@@ -8,6 +8,10 @@
   @extend %heading;
   font-size: 8rem;
   line-height: 1;
+
+  @media only screen and (max-width: $bp-tablet) {
+    font-size: 6rem;
+  }
 }
 
 .heading-md {

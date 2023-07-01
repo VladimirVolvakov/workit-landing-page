@@ -10,19 +10,37 @@
   z-index: 30;
   overflow: hidden;
 
+  @media only screen and (max-width: $bp-tablet) {
+    height: 54rem;
+    padding: 3.2rem 5.2% 0;
+    clip-path: circle(1850px at 50% -242%);
+  }
+
   &__logo-panel {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6.2rem;
+
+    @media only screen and (max-width: $bp-tablet) {
+      margin-bottom: 5.6rem;
+    }
   }
 
   &__hero {
     text-align: center;
     padding: 0 23.75rem;
 
+    @media only screen and (max-width: $bp-tablet) {
+      padding: 0 20%;
+    }
+
     h1 {
       margin-bottom: 3.7rem;
+
+      @media only screen and (max-width: $bp-tablet) {
+        margin-bottom: 3.9rem;
+      }
     }
   }
 
@@ -31,12 +49,24 @@
       position: absolute;
       top: 11.6rem;
       left: -13.8rem;
+
+      @media only screen and (max-width: $bp-tablet) {
+        height: 21.5rem;
+        top: 7.1rem;
+        left: -14.8rem;
+      }
     }
 
     &--2 {
       position: absolute;
       top: 31.4rem;
       right: -4.8rem;
+
+      @media only screen and (max-width: $bp-tablet) {
+        width: 14.17rem;
+        top: 25rem;
+        right: -9.36rem;
+      }
     }
   }
 
@@ -47,5 +77,11 @@
     transform: translateX(-50%);
     bottom: -16.5rem;
     z-index: 50;
+
+    @media only screen and (max-width: $bp-tablet) {
+      width: 66.9%;
+      max-width: 55rem;
+      bottom: -14.78rem;
+    }
   }
 }

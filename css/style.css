@@ -6,7 +6,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   box-sizing: border-box;
@@ -24,6 +25,9 @@ body {
 .heading-lg {
   font-size: 8rem;
   line-height: 1; }
+  @media only screen and (max-width: 81.25em) {
+    .heading-lg {
+      font-size: 6rem; } }
 
 .heading-md {
   font-size: 5.6rem;
@@ -52,6 +56,11 @@ body {
   border: 2px solid #44ffa1;
   cursor: pointer;
   transition: all 0.3s; }
+  @media only screen and (max-width: 81.25em) {
+    .btn-primary {
+      font-size: 1.6rem;
+      letter-spacing: -0.16px;
+      padding: 1.15rem 2.35rem; } }
   .btn-primary:hover {
     background-color: #24053e;
     color: #44ffa1; }
@@ -68,6 +77,10 @@ body {
   border-bottom: 3px solid #44ffa1;
   cursor: pointer;
   transition: all 0.3s; }
+  @media only screen and (max-width: 81.25em) {
+    .btn-secondary {
+      font-size: 1.6rem;
+      letter-spacing: -0.16px; } }
   .btn-secondary:hover {
     color: #44ffa1; }
 
@@ -180,24 +193,48 @@ body {
   clip-path: circle(2500px at 50% -242%);
   z-index: 30;
   overflow: hidden; }
+  @media only screen and (max-width: 81.25em) {
+    .header {
+      height: 54rem;
+      padding: 3.2rem 5.2% 0;
+      clip-path: circle(1850px at 50% -242%); } }
   .header__logo-panel {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6.2rem; }
+    @media only screen and (max-width: 81.25em) {
+      .header__logo-panel {
+        margin-bottom: 5.6rem; } }
   .header__hero {
     text-align: center;
     padding: 0 23.75rem; }
+    @media only screen and (max-width: 81.25em) {
+      .header__hero {
+        padding: 0 20%; } }
     .header__hero h1 {
       margin-bottom: 3.7rem; }
+      @media only screen and (max-width: 81.25em) {
+        .header__hero h1 {
+          margin-bottom: 3.9rem; } }
   .header__deco--1 {
     position: absolute;
     top: 11.6rem;
     left: -13.8rem; }
+    @media only screen and (max-width: 81.25em) {
+      .header__deco--1 {
+        height: 21.5rem;
+        top: 7.1rem;
+        left: -14.8rem; } }
   .header__deco--2 {
     position: absolute;
     top: 31.4rem;
     right: -4.8rem; }
+    @media only screen and (max-width: 81.25em) {
+      .header__deco--2 {
+        width: 14.17rem;
+        top: 25rem;
+        right: -9.36rem; } }
   .header__img {
     position: absolute;
     width: 76.7rem;
@@ -205,3 +242,8 @@ body {
     transform: translateX(-50%);
     bottom: -16.5rem;
     z-index: 50; }
+    @media only screen and (max-width: 81.25em) {
+      .header__img {
+        width: 66.9%;
+        max-width: 55rem;
+        bottom: -14.78rem; } }
