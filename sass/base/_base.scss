@@ -18,4 +18,10 @@ body {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 3.2rem;
+
+  @media only screen and (max-width: $bp-tablet) {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: $color-primary-light;
+  }
 }
