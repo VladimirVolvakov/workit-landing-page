@@ -101,11 +101,11 @@ body {
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
-  height: 75.8rem;
+  height: 81.8rem;
   padding: 11rem 16.5rem 6rem; }
   @media only screen and (max-width: 81.25em) {
     .cta {
-      height: 52.6rem;
+      height: 70.6rem;
       padding: 10rem 5.14% 8rem; } }
   .cta__container {
     position: relative; }
