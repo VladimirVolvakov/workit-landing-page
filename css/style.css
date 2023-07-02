@@ -37,6 +37,10 @@ body {
 .heading-md {
   font-size: 5.6rem;
   line-height: 6.4rem; }
+  @media only screen and (max-width: 81.25em) {
+    .heading-md {
+      font-size: 4.8rem;
+      line-height: 5.6rem; } }
 
 .heading-sm {
   font-size: 3.2rem;
@@ -99,6 +103,10 @@ body {
   margin: 0 auto;
   height: 75.8rem;
   padding: 11rem 16.5rem 6rem; }
+  @media only screen and (max-width: 81.25em) {
+    .cta {
+      height: 52.6rem;
+      padding: 10rem 5.14% 8rem; } }
   .cta__container {
     position: relative; }
   .cta__photo {
@@ -107,6 +115,10 @@ body {
     left: 0;
     width: 47.7rem;
     z-index: 40; }
+    @media only screen and (max-width: 81.25em) {
+      .cta__photo {
+        width: 36.59%;
+        max-width: 44.3rem; } }
   .cta__offer {
     position: absolute;
     right: 0;
@@ -121,6 +133,13 @@ body {
     align-items: start;
     overflow: hidden;
     background-image: linear-gradient(#24053e, #24053e); }
+    @media only screen and (max-width: 81.25em) {
+      .cta__offer {
+        top: 15rem;
+        height: 37.5rem;
+        width: 76.5%;
+        max-width: 67.8rem;
+        padding: 4.8rem 5.6rem 5.6rem; } }
   .cta__heading, .cta__text {
     color: #fff; }
   .cta__btn {
@@ -131,6 +150,10 @@ body {
     right: 7.3rem;
     z-index: 60;
     width: 17.3rem; }
+    @media only screen and (max-width: 81.25em) {
+      .cta__deco {
+        bottom: -10.57rem;
+        right: 1.27rem; } }
 
 .features {
   width: 100%;

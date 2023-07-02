@@ -5,6 +5,11 @@
   height: 75.8rem;
   padding: 11rem 16.5rem 6rem;
 
+  @media only screen and (max-width: $bp-tablet) {
+    height: 52.6rem;
+    padding: 10rem 5.14% 8rem;
+  }
+
   &__container {
     position: relative;
   }
@@ -15,6 +20,11 @@
     left: 0;
     width: 47.7rem;
     z-index: 40;
+
+    @media only screen and (max-width: $bp-tablet) {
+      width: 36.59%;
+      max-width: 44.3rem;
+    }
   }
 
   &__offer {
@@ -31,6 +41,14 @@
     align-items: start;
     overflow: hidden;
     background-image: linear-gradient($color-primary, $color-primary);
+
+    @media only screen and (max-width: $bp-tablet) {
+      top: 15rem;
+      height: 37.5rem;
+      width: 76.5%;
+      max-width: 67.8rem;
+      padding: 4.8rem 5.6rem 5.6rem;
+    }
   }
 
   &__heading,
@@ -48,5 +66,10 @@
     right: 7.3rem;
     z-index: 60;
     width: 17.3rem;
+
+    @media only screen and (max-width: $bp-tablet) {
+      bottom: -10.57rem;
+      right: 1.27rem;
+    }
   }
 }
