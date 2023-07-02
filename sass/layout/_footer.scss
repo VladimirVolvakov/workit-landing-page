@@ -3,9 +3,13 @@
   width: 100%;
   max-width: 144rem;
   margin: 0 auto;
-  padding: 6rem 16.5rem 11rem;
+  padding: 0 16.5rem 11rem;
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: $bp-tablet) {
+    padding: 0 42.45% 12.18rem;
+  }
 
   &__container {
     height: 10.2rem;
