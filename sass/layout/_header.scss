@@ -16,6 +16,12 @@
     clip-path: circle(1850px at 50% -242%);
   }
 
+  @media only screen and (max-width: $bp-phone) {
+    height: 48.2rem;
+    padding: 3.2rem 4.25% 0;
+    clip-path: circle(1640px at 50% -242%);
+  }
+
   &__logo-panel {
     display: flex;
     justify-content: space-between;
@@ -25,6 +31,10 @@
     @media only screen and (max-width: $bp-tablet) {
       margin-bottom: 5.6rem;
     }
+
+    @media only screen and (max-width: $bp-phone) {
+      margin-bottom: 6.4rem;
+    }
   }
 
   &__hero {
@@ -33,6 +43,10 @@
 
     @media only screen and (max-width: $bp-tablet) {
       padding: 0 20%;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      padding: 0 4.5%;
     }
 
     h1 {
@@ -55,6 +69,10 @@
         top: 7.1rem;
         left: -14.8rem;
       }
+
+      @media only screen and (max-width: $bp-phone) {
+        display: none;
+      }
     }
 
     &--2 {
@@ -66,6 +84,10 @@
         width: 14.17rem;
         top: 25rem;
         right: -9.36rem;
+      }
+
+      @media only screen and (max-width: $bp-phone) {
+        display: none;
       }
     }
   }
@@ -82,6 +104,12 @@
       width: 66.9%;
       max-width: 55rem;
       bottom: -14.78rem;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      width: 89.3%;
+      max-width: 34rem;
+      bottom: -9.13rem;
     }
   }
 }

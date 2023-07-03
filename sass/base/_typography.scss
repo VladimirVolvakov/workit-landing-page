@@ -12,6 +12,10 @@
   @media only screen and (max-width: $bp-tablet) {
     font-size: 6rem;
   }
+
+  @media only screen and (max-width: $bp-phone) {
+    font-size: 5rem;
+  }
 }
 
 .heading-md {
