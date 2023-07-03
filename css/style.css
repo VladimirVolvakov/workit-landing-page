@@ -44,6 +44,10 @@ body {
     .heading-md {
       font-size: 4.8rem;
       line-height: 5.6rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .heading-md {
+      font-size: 3.2rem;
+      line-height: 4.8rem; } }
 
 .heading-sm {
   font-size: 3.2rem;
@@ -110,6 +114,10 @@ body {
     .cta {
       height: 70.6rem;
       padding: 10rem 5.14% 8rem; } }
+  @media only screen and (max-width: 43.75em) {
+    .cta {
+      height: 77.7rem;
+      padding: 10rem 4.25% 7.4rem; } }
   .cta__container {
     position: relative; }
   .cta__photo {
@@ -122,6 +130,12 @@ body {
       .cta__photo {
         width: 36.59%;
         max-width: 44.3rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .cta__photo {
+        width: 86.5%;
+        max-width: 28.1rem;
+        left: 50%;
+        transform: translateX(-50%); } }
   .cta__offer {
     position: absolute;
     right: 0;
@@ -143,8 +157,23 @@ body {
         width: 76.5%;
         max-width: 67.8rem;
         padding: 4.8rem 5.6rem 5.6rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .cta__offer {
+        width: 100%;
+        max-width: 34.3rem;
+        top: 22.8rem;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 3.2rem;
+        justify-content: start;
+        align-items: center; } }
   .cta__heading, .cta__text {
     color: #fff; }
+  @media only screen and (max-width: 43.75em) {
+    .cta__text {
+      margin: 1.6rem 0rem 2.4rem;
+      text-align: center; } }
   .cta__btn {
     display: inline-block; }
   .cta__deco {
@@ -157,6 +186,9 @@ body {
       .cta__deco {
         bottom: -10.57rem;
         right: 1.27rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .cta__deco {
+        display: none; } }
 
 .features {
   width: 100%;
@@ -175,7 +207,7 @@ body {
     .features {
       height: 107.1rem;
       margin: -9.2rem auto 0;
-      clip-path: circle(2770px at 50% -160%); } }
+      clip-path: circle(2780px at 50% -160%); } }
   .features__container {
     padding: 48rem 16.3rem 0;
     display: flex;
