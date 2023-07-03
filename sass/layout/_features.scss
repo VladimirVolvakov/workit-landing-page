@@ -13,6 +13,12 @@
     clip-path: circle(2370px at 50% -160%);
   }
 
+  @media only screen and (max-width: $bp-phone) {
+    height: 107.1rem;
+    margin: -9.2rem auto 0;
+    clip-path: circle(2770px at 50% -160%);
+  }
+
   &__container {
     padding: 48rem 16.3rem 0;
     display: flex;
@@ -23,6 +29,11 @@
       flex-direction: column;
       justify-content: start;
       gap: 4.8rem;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      padding: 24.5rem 4.25% 0;
+      gap: 4rem;
     }
   }
 
@@ -39,6 +50,11 @@
       grid-template-rows: repeat(2, auto);
       column-gap: 3.2rem;
       row-gap: 1.6rem;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      display: flex;
+      gap: 0;
     }
   }
 
@@ -60,6 +76,10 @@
       margin-bottom: 0;
       grid-area: 1 / 1 / -1 / 2;
     }
+
+    @media only screen and (max-width: $bp-phone) {
+      margin-bottom: 2.4rem;
+    }
   }
 
   &__feature-title {
@@ -68,6 +88,10 @@
     @media only screen and (max-width: $bp-tablet) {
       margin-bottom: 0;
     }
+
+    @media only screen and (max-width: $bp-phone) {
+      margin-bottom: 1.6rem;
+    }
   }
 
   &__feature-desc {
@@ -75,6 +99,10 @@
 
     @media only screen and (max-width: $bp-tablet) {
       text-align: left;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+      text-align: center;
     }
   }
 }
