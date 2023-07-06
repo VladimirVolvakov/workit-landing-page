@@ -66,6 +66,7 @@ body {
 
 .btn-primary {
   background-color: #44ffa1;
+  text-decoration: none;
   color: #24053e;
   padding: 1.3rem 2.5rem 1.6rem;
   font-family: "Manrope", sans-serif;
@@ -87,6 +88,7 @@ body {
 
 .btn-secondary {
   background-color: transparent;
+  text-decoration: none;
   color: #fff;
   font-family: "Manrope", sans-serif;
   font-size: 1.8rem;
@@ -351,7 +353,7 @@ body {
       .header__hero {
         padding: 0 4.5%; } }
     .header__hero h1 {
-      margin-bottom: 3.7rem; }
+      margin-bottom: 3.9rem; }
       @media only screen and (max-width: 81.25em) {
         .header__hero h1 {
           margin-bottom: 3.9rem; } }
